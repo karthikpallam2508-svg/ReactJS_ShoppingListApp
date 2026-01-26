@@ -1,26 +1,23 @@
 import { useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import Main from "./main";
-
+import Main from "./Main";
 
 type Item = {
-    id: number
-    name: string
-    quantity: number
-    product: string
-}
+  id: number;
+  name: string;
+  quantity: number;
+  product: string;
+};
 
 export default function ShoppingApp() {
-
-    const [items, setItems] = useState<Item[]>([])
+  const [items, setItems] = useState<Item[]>([]);
 
   return (
     <>
-        <Header />
-        <Main />
-        <Footer />
-       
+      <Header />
+      <Main />
+      <Footer />
     </>
-  )
+  );
 }

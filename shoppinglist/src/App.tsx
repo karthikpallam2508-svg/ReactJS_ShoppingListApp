@@ -1,14 +1,11 @@
-import ShoppingApp from "./components/shoppingApp"
-
-
+import ShoppingApp from "./components/shoppingApp";
 
 function App() {
-
   return (
     <>
       <ShoppingApp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
